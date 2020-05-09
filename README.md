@@ -1,5 +1,10 @@
 # Mac 系统命令行修改屏幕分辨率
 
+# 查询分辨率
+```shell
+system_profiler SPDisplaysDataType | grep Resolution
+```
+
 ```bash
 Display List:
     0 : 1552
